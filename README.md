@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-  log.SetLevel(log.DebugLevel)
+	log.SetLevel(log.DebugLevel)
 	log.Debug.Println("Debug Level")
 	log.Info.Println("Info reporting!")
 	log.Warn.Println("This is a test")
