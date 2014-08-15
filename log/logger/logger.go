@@ -3,7 +3,7 @@ package logger
 import (
 	"io"
 	"fmt"
-	"lumberjack/color"
+	"github.com/cam72cam/go-lumberjack/color"
 )
 
 type Logger struct {

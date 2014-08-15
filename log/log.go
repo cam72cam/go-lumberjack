@@ -1,8 +1,8 @@
 package log
 
 import "os"
-import "lumberjack/color"
-import "lumberjack/log/logger"
+import "github.com/cam72cam/go-lumberjack/color"
+import "github.com/cam72cam/go-lumberjack/log/logger"
 
 var (
 	Debug = logger.New(os.Stdout, color.WhiteThin, "")
